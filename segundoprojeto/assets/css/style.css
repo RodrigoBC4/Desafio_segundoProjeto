@@ -1,0 +1,142 @@
+
+:root {/*variavel*/
+    --lightgrey: #959EAC;
+    --mediumgrey: #7C8798;
+    --darkblue: #252D37;
+    --verydarkblue: #121417;
+    --orange: #FB7413;
+    --white: #FFFFFF;
+}
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background: var(--verydarkblue);
+    max-width: 1440px;
+    height: 900px;
+    margin: 50px auto;
+}
+
+.primari{
+    width: 250px;
+    height: auto;
+    color: var(--white);
+    background-color: var(--darkblue);
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.circ{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: var(--verydarkblue);
+    border-radius: 100%;
+}
+.imag{
+    margin: auto;
+    width: 10px;
+    height: 10px;
+    background-image: url("../img/icon-star.svg");
+    background-size: cover;
+}
+
+.rad {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 50px;    
+}
+
+.radcir{
+    display: flex;
+    width: 15%;
+    height: 70%;
+    margin: auto;
+    border-radius: 100%;
+    background-color: var(--verydarkblue);
+    color: var(--mediumgrey);
+}
+.radcir p{
+    margin: auto;
+}
+
+.radcir:hover{
+    background-color: var(--orange);
+    color: var(--white);
+}
+.radcirAct {
+    background-color: var(--lightgrey);
+    color: var(--white);
+}
+
+
+
+
+
+.primari button {
+    display: block;
+    width: 100%;
+    border: none;
+    background: var(--orange);
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.primari button:hover {
+    color: var(--orange);
+    background: var(--white);
+}
+
+/*
+
+@media screen and (max-width: 600px){
+    .container {
+        display: flex;
+        justify-content: center;
+        background: var(--cream);
+        max-width: auto;
+        height: auto;
+        padding: 10px;
+        margin: auto;
+    }
+    .bloco{
+        display: grid;
+        grid-template-columns: auto;
+        margin: auto;
+        border-radius: 10px;
+    }
+    .imag{
+        max-width: 350px;
+        height: 250px;
+        background-image: url("../img/image-product-mobile.jpg");
+        background-size:cover;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .descr{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
+*/
