@@ -16,7 +16,7 @@ let notafinal;
          return;
       }
       if (notafinal <= 5) {
-         alert(`You select ${notafinal}`);
+         //alert(`You select ${notafinal}`);
          notaf(camp1, camp2);
          return;
       };
@@ -51,7 +51,7 @@ let notafinal;
    }
 
    function add(notael) {
-      alert('Muito Obrigado!');
+      //alert('Muito Obrigado!');
       notafinal = notael;
       btnAv[notafinal - 1].classList.add('radcir');
    }
